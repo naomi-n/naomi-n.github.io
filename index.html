@@ -6,20 +6,29 @@
   <head>
     <title>✧･ﾟ: *✧･ﾟ:* Yomi's World *:･ﾟ✧*:･ﾟ✧</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Prata">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap" rel="stylesheet">
+    <!-- CSS animations -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
   </head>
   <body>
-    <h1>Hello, world!</h1>
-    <p>I'm an engineer living and breathing in San Diego, CA. Powered by lo-fi playlists and black coffee.<br/>
-    While I'm currently working as an engineer, I'm shifting gears to full-stack software development roles.<br/>
-    Feel free to reach out to me, whoever you are :-)
-    </p>
-    <h1>Love, Naomi</h1>
-    <p>P.S. Scroll down for experience and projects. Coming Soon.</p>
+    <div class="main">
+      <h1 class="hello animate__animated animate__slideInLeft">Hello World,</h1>
+      <p class="animate__animated animate__slideInRight">
+        I'm an engineer living and breathing in San Diego, CA. Powered by lo-fi playlists and black coffee.<br/><br/>
+        While I'm currently working as an engineer, I'm shifting gears to full-stack software development roles.<br/><br/>
+        Feel free to reach out to me, whoever you are :-)
+      </p>
+      <h1 class="love animate__animated animate__slideInRight animate__slow">Love, <br/> Naomi</h1>
+    </div>
     <script src="http://code.jquery.com/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
   </body>
+  <footer>
+    <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/naomi-navarro/"><img src="./assets/images/icons8-linkedin-26.png"></a>
+  </footer>
 </html>

@@ -1,5 +1,34 @@
 body {
-    font-family: 'Gilda Display';
+    font-family: 'Playfair Display', serif;
     color: #32322C;
-    background-color: #E4F0D0;
+    /* background-color: #E4F0D0; */
+    background-image: url(../images/G77TUQ1o.jpg);
+    background-size: 100% auto;
+}
+
+footer {
+    text-align:center;
+}
+
+.main {
+    display: block;
+    width: 80%;
+    max-width: 50rem;
+    height: 30rem;
+    /* background-color: lightgray; */
+    margin: 0 auto;
+}
+
+.main p {
+    font-size: 20px;
+}
+
+.hello {
+    font-size: 60px;
+    font-style: italic;
+}
+
+.love {
+    font-style: italic;
+    text-align: right;
 }
