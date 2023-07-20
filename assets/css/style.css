@@ -2,8 +2,9 @@ body {
     font-family: 'Playfair Display', serif;
     color: #32322C;
     /* background-color: #E4F0D0; */
-    background-image: url(../images/G77TUQ1o.jpg);
-    background-size: 100% auto;
+    background: url(../images/G77TUQ1o.jpg) no-repeat center center fixed;
+    background-size: cover; 
+    /* 100% auto; */
 }
 
 footer {
