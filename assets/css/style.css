@@ -34,10 +34,14 @@ footer {
     text-align: right;
 }
 
-a:link { text-decoration: none; }
+/* .what-am-i-drinking {
+    background: rgba(188, 67, 192, 0.355);
+} */
 
-a:visited { text-decoration: none; }
+a:link { text-decoration: none; color: rgb(57, 18, 103);}
 
-a:hover { text-decoration: none; }
+a:visited { text-decoration: none; color: rgb(57, 18, 103);}
+
+a:hover { text-decoration: none; color: rgb(188, 67, 192);}
 
 a:active { text-decoration: none; }
