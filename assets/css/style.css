@@ -14,7 +14,8 @@ footer {
     bottom: 0;
     width: 100%;
     text-align: center;
-    background-color: rgba(249,177,197, 0.5)
+    background-color: rgba(249,177,197, 0.5);
+    font-size: 12px;
 }
 
 .main {
@@ -41,6 +42,12 @@ footer {
 .love {
     font-style: italic;
     text-align: right;
+    font-size: 30px;
+}
+
+.links {
+  text-align: center;
+  padding-top: 5px;
 }
 
 .column {
@@ -75,6 +82,7 @@ a:active { text-decoration: none; }
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+  margin-inline-end: 5px;
 }
 
 .button-link:hover {
@@ -86,9 +94,30 @@ a:active { text-decoration: none; }
   transform: translate(2px, 2px);
 }
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   .button-link {
     min-width: 120px;
     padding: 0 25px;
   }
+} */
+
+@media screen and (max-width: 479px) {
+  /* start of phone styles */
+
+  .button-link {
+    min-width: 120px;
+  }
+
+  .hello {
+    font-size: 50px;
+  }
+
+  .main p {
+    font-size: 15px;
+  }
+
+  .love {
+    font-size: 20px;
+  }
+  
 }
